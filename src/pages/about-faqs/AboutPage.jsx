@@ -23,7 +23,7 @@ const AboutPage = () => {
                     Go Back
                 </button>
                 <button onClick={ () => {navigate(1)} }>
-                    Go Forware
+                    Go Forward
                 </button>
             </div>
         </div>

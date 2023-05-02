@@ -70,7 +70,7 @@ const TaskComponent = ({task, complete, remove}) => {
         textDecoration: 'line-through'
     }
     const taskPending = {
-        color: 'tomato',
+        color: 'rgb(237,108,2)',
         fontWeight: 'bold',
     }
     

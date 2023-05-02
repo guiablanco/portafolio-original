@@ -1,0 +1,37 @@
+.profileImage {
+    height: 15rem;
+    border-radius: 100%;
+    border: solid;
+    margin-top: 1rem;
+}
+
+.datos {
+    margin-top: 1rem;
+    color: rgb(206, 156, 65);
+}
+
+.logo-profile {
+    max-height: 15rem;
+    max-width: 15rem;
+    margin: 2rem;
+}
+
+.logo-profile:hover {
+    
+    animation-name: efecto-logo;
+    animation-duration: 0.3s;
+
+    }
+
+@keyframes efecto-logo {
+    0% {opacity: 0%;
+    border-top: solid;}
+    25% {opacity: 25%;
+    border-right: solid;}
+    50% {opacity: 50%;
+    border-bottom: solid;}
+    75% {opacity: 75%;
+    border-left: solid;}
+    100% {opacity: 100%;
+    border: transparent;}
+}

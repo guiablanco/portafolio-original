@@ -11,6 +11,8 @@ import { LEVELS } from '../../../models/levels.enum';
 const taskSchema = Yup.object().shape(
 
     {
+        id: Yup.number()
+            .required(),
         name: Yup.string()
                 .required('Must have task name')
                 .min(1, 'The name must have at least one letter'),
@@ -26,6 +28,7 @@ const taskSchema = Yup.object().shape(
 const TaskFormik = () => {
 
     const initialTask = {
+        id: '',
         name: '',
         description: '',
         completed: false,
@@ -74,6 +77,21 @@ const TaskFormik = () => {
                 handleBlur,
             }) => (
                 <Form>
+                    <label className='p-2' htmlFor="id">Id</label>
+                    <Field
+                        id="id"
+                        name="id"
+                        placeholder="id"
+                        type="id"
+                    />
+
+                    {/* id errors */}
+                    {
+                        errors.id && touched.id && 
+                        (
+                                <ErrorMessage name='id' component='div'></ErrorMessage>
+                        )
+                    }
                     <label className='p-2' htmlFor="name">Name</label>
                     <Field
                         id="name"
