@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import {useEffect} from 'react';
 import PropTypes from 'prop-types';
 
 //models
@@ -70,7 +70,7 @@ const TaskComponent = ({task, complete, remove}) => {
         textDecoration: 'line-through'
     }
     const taskPending = {
-        color: 'rgb(237,108,2)',
+        color: 'tomato',
         fontWeight: 'bold',
     }
     

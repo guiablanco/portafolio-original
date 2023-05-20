@@ -1,25 +1,12 @@
-.logo {
-    width: 15rem;
 
-}
 
-.listGroup {
-    padding-top: 1rem;
-    background-color: transparent;
-    color: white;
-    width: 25rem;
-
-}
-
-.listElement {
+.task-page{
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
-    font-size: medium;
+
 }
 
-.icon {
-    margin-right: 1rem;
-    font-size: large;
+.home-list{
+    margin-right: 2rem;
 }
+
