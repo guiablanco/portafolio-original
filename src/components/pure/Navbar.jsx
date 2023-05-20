@@ -18,17 +18,18 @@ const [logged, setLogged] = useState(true)
     return (
         <div>
             <div className='headTitle'>
-                <img src={taskIco} alt='taskLogo' className='taskLogo'/>
-                <h1>Task App</h1>
+
+
             </div>
             <ButtonGroup variant="text" aria-label="text button group" color='warning'>
-                <Button href='#' onClick={()=> navigate(-1)} >Back</Button>
-                <Button href='/' >Home</Button>
-                <Button href='profile'>Profile</Button>
+                <Button style={{color:'white'}} href='#' onClick={()=> navigate(-1)} >Back</Button>
+                <Button style={{color:'white'}} href='/' >Home</Button>
+                <Button style={{color:'white'}} href='profile'>Proyectos</Button>
                 {
-                    logged ? <Button href='tasks'>Tasks</Button> : <Button href='Login'>Login</Button> 
+                    logged ? <Button style={{color:'white'}} href='tasks'>Tasks</Button> : <Button style={{color:'white'}} href='Login'>Login</Button> 
                 }
-                <Button href='about'>About US</Button>
+                <Button style={{color:'white'}} href='about'>Canales</Button>
+                <Button style={{color:'white'}} href='about'>LinkedIn y CV</Button>
             </ButtonGroup>
         </div>
     );
