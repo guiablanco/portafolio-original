@@ -12,6 +12,7 @@ import TaskPage from './pages/tasks/TaskPage';
 
 //style
 import './App.css';
+import Proyectos from './pages/proyectos-personales/proyectos';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           <Route path='register' element={<RegisterPage/>}></Route>
           <Route path='about' element={<AboutPage/>}/>
           <Route path='faqs' element={<AboutPage/>}/>
-          <Route path='profile' element={<ProfilePage/>}/>
+          <Route path='proyectos' element={<Proyectos/>}/>
           <Route path='tasks/*' element={<TaskPage/>} />
           <Route path='*' element={<NotFoundPage/>} />
         </Route>
