@@ -28,8 +28,8 @@ const [logged, setLogged] = useState(true)
                 {
                     logged ? <Button style={{color:'white'}} href='tasks'>Tasks</Button> : <Button style={{color:'white'}} href='Login'>Login</Button> 
                 }
-                <Button style={{color:'white'}} href='about'>Canales</Button>
-                <Button style={{color:'white'}} href='about'>LinkedIn y CV</Button>
+                <Button style={{color:'white'}} href='canales'>Canales</Button>
+                <Button style={{color:'white'}} href='linkedin'>LinkedIn y CV</Button>
             </ButtonGroup>
         </div>
     );

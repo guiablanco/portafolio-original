@@ -14,6 +14,8 @@ import TaskPage from './pages/tasks/TaskPage';
 import './App.css';
 import Proyectos from './pages/proyectos-personales/proyectos';
 import HomeTaskPage from './pages/homeTask/HomeTaskPage';
+import CanalesPage from './pages/canales/CanalesPage';
+import LinkedInPage from './pages/linkedIn/LinkedInPage';
 
 function App() {
   return (
@@ -23,9 +25,9 @@ function App() {
           <Route index element={<HomeProfilePage/>}></Route>
           <Route path='login' element={<LoginPage/>}></Route>
           <Route path='register' element={<RegisterPage/>}></Route>
-          <Route path='about' element={<AboutPage/>}/>
-          <Route path='faqs' element={<AboutPage/>}/>
+          <Route path='canales' element={<CanalesPage/>}/>
           <Route path='proyectos' element={<Proyectos/>}/>
+          <Route path='linkedin' element={<LinkedInPage/>}/>
           <Route path='tasks/*' element={<HomeTaskPage/>} />
           <Route path='*' element={<NotFoundPage/>} />
         </Route>
