@@ -22,14 +22,14 @@ const [logged, setLogged] = useState(true)
 
             </div>
             <ButtonGroup variant="text" aria-label="text button group" color='warning'>
-                <Button style={{color:'white'}} href='#' onClick={()=> navigate(-1)} >Back</Button>
-                <Button style={{color:'white'}} href='/' >Home</Button>
-                <Button style={{color:'white'}} href='proyectos'>Proyectos</Button>
+                <Button style={{color:'white', fontWeight:'600'}} href='#' onClick={()=> navigate(-1)} >Back</Button>
+                <Button style={{color:'white', fontWeight:'600'}} href='/' >Home</Button>
+                <Button style={{color:'white', fontWeight:'600'}} href='proyectos'>Proyectos</Button>
                 {
-                    logged ? <Button style={{color:'white'}} href='tasks'>Tasks</Button> : <Button style={{color:'white'}} href='Login'>Login</Button> 
+                    logged ? <Button style={{color:'white', fontWeight:'600'}} href='tasks'>Tasks</Button> : <Button style={{color:'white'}} href='Login'>Login</Button> 
                 }
-                <Button style={{color:'white'}} href='canales'>Canales</Button>
-                <Button style={{color:'white'}} href='linkedin'>LinkedIn y CV</Button>
+                <Button style={{color:'white', fontWeight:'600'}} href='canales'>Canales</Button>
+                <Button style={{color:'white', fontWeight:'600'}} href='linkedin'>LinkedIn y CV</Button>
             </ButtonGroup>
         </div>
     );
