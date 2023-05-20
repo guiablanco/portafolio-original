@@ -15,7 +15,6 @@ const HomePage = () => {
 
     return (
         <div>
-            <h1 style={{marginTop:'1rem', marginBottom:'1rem'}}>(App en construcción)</h1>
             <div>
                 <img src={tasklogo} alt='logo' className='logo'/>
             </div>

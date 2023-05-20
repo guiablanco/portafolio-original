@@ -2,7 +2,7 @@ import {Routes, Route} from 'react-router-dom';
 
 //pages
 import Layout from './components/container/Layout';
-import HomePage from './pages/home/HomePage';
+import HomeProfilePage from './pages/home/HomeProfilePage';
 import LoginPage from './pages/auth/LoginPage';
 import RegisterPage from './pages/auth/RegisterPage';
 import NotFoundPage from './pages/404/NotFoundPage';
@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/' element={<Layout/>}>
-          <Route index element={<HomePage/>}></Route>
+          <Route index element={<HomeProfilePage/>}></Route>
           <Route path='login' element={<LoginPage/>}></Route>
           <Route path='register' element={<RegisterPage/>}></Route>
           <Route path='about' element={<AboutPage/>}/>
