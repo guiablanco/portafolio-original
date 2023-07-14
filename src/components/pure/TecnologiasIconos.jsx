@@ -21,6 +21,14 @@ import logoSpringBoot from '../../assets/images/spring-boot-logo.png';
 import logoGoogleFonts from '../../assets/images/Google-Fonts-Logo.png';
 import logoJUnit5 from '../../assets/images/JUnit-logo.png';
 import logoMockito from '../../assets/images/mockito-logo.png';
+import logoGit from '../../assets/images/Git-Icon.png';
+import logoGithub from '../../assets/images/Github-logo.png';
+import logoGitlab from '../../assets/images/Gitlab-logo.png';
+import logoBitbucket from '../../assets/images/Bitbucket-logo.png';
+import logoSQL from '../../assets/images/SQL-logo.png';
+import logoPostgresql from '../../assets/images/Postgresql-logo.png';
+import logodbeaver from '../../assets/images/DBeaver-logo.png';
+
 
 import '../../styles/profile.scss'
 
@@ -146,7 +154,6 @@ const TecnologiasIconos = () => {
                     <Col>
                         <Card className='card' style={{ width: '35rem' }}>
                             <div className='card-tech'>
-
                                 <div>
                                     <Card.Img variant="top" src={logoSpring} style={{width:'6.6rem'}} />
                                     <Card.Body>
@@ -164,6 +171,60 @@ const TecnologiasIconos = () => {
                                         <ListGroup.Item><Card.Img variant="top" src={logoMockito} style={{width:'3.5rem'}} /> Mockito</ListGroup.Item>
                                     <Card.Body>
                                         <Card.Link href="https://drive.google.com/file/d/1lalXTu0rqU_WXQChMY5Rx5Gz2C3PnsJv/view?usp=share_link">Certificado</Card.Link>
+                                    </Card.Body>
+                                    </ListGroup>
+                                </div>
+                            </div>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card className='card' style={{ width: '35rem' }}>
+                            <div className='card-tech'>
+
+                                <div>
+                                    <Card.Img variant="top" src={logoGit} style={{width:'6.6rem'}} />
+                                    <Card.Body>
+                                        <Card.Title>Git</Card.Title>
+                                        <Card.Text>
+                                                Desarrollado en Open Bootcamp
+                                        </Card.Text>
+                                    </Card.Body>
+                                </div>
+                                <div className='card2'>
+                                    <ListGroup className="list-group-flush" style={{ width: '20rem'}}>
+                                        <Card.Title >Trabajando con</Card.Title>
+                                        <ListGroup.Item><Card.Img variant="top" src={logoGithub} style={{width:'1.5rem'}} />   Github</ListGroup.Item>
+                                        <ListGroup.Item><Card.Img variant="top" src={logoGitlab} style={{width:'1.5rem'}} /> Gitlab</ListGroup.Item>
+                                        <ListGroup.Item><Card.Img variant="top" src={logoBitbucket} style={{width:'1.5rem'}} /> Bitbucket</ListGroup.Item>
+                                    <Card.Body>
+                                        <Card.Link href="https://drive.google.com/file/d/1B3KU88ncM8feNFQS_Q4KGkkjONfwL11d/view?usp=sharing">Certificado</Card.Link>
+                                    </Card.Body>
+                                    </ListGroup>
+                                </div>
+                            </div>
+                        </Card>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <Card className='card' style={{ width: '35rem' }}>
+                            <div className='card-tech'>
+                                <div>
+                                    <Card.Img variant="top" src={logoSQL} style={{width:'6.6rem'}} />
+                                    <Card.Body>
+                                        <Card.Title>SQL</Card.Title>
+                                        <Card.Text>
+                                                Desarrollado en Open Bootcamp
+                                        </Card.Text>
+                                    </Card.Body>
+                                </div>
+                                <div className='card2'>
+                                    <ListGroup className="list-group-flush" style={{ width: '20rem'}}>
+                                        <Card.Title >Trabajando con</Card.Title>
+                                        <ListGroup.Item><Card.Img variant="top" src={logoPostgresql} style={{width:'1.5rem'}} />  Postgresql</ListGroup.Item>
+                                        <ListGroup.Item><Card.Img variant="top" src={logodbeaver} style={{width:'1.8rem'}} /> Dbeaver</ListGroup.Item>
+                                    <Card.Body>
+                                        <Card.Link href="https://drive.google.com/file/d/1myQKNwij-TrQ8b8DxU9fBkxRsPWgX8nM/view?usp=sharing">Certificado</Card.Link>
                                     </Card.Body>
                                     </ListGroup>
                                 </div>
