@@ -6,7 +6,7 @@ import '../../styles/PDFViewer.scss';
 import LinkedInLogo from '../../assets/images/Logo-LinkedIn-noir.webp';
 import profileImage from '../../assets/images/profile.jpg';
 
-import CVSebastian from '../../assets/documents/CV-Sebastián-Aguirre-DevJr-2023.pdf';
+import CVSebastian from '../../assets/documents/CV-Sebatián-Aguirre-DevJr-2023.pdf';
 
 const LinkedInPage = () => {
 
