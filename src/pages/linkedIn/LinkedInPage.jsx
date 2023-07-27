@@ -8,7 +8,7 @@ import '../../styles/PDFViewer.scss';
 //Images
 import LinkedInLogo from '../../assets/images/Logo-LinkedIn-noir.webp';
 import profileImage from '../../assets/images/profile.jpg';
-import miniGithub from '../../assets/images/mini-github.png';
+import miniGithub from '../../assets/images/Github-logo.png';
 
 //Documents
 import CVSebastian from '../../assets/documents/CV-Sebatián-Aguirre-DevJr-2023.pdf';
@@ -49,7 +49,7 @@ const LinkedInPage = () => {
                           <div>
                             <Button href='https://www.linkedin.com/in/sebasti%C3%A1n-aguirre-b61669b9/' size="lg" style={{border:'solid', borderColor:'white', marginRight:'5px'}} variant="dark">Ver Perfil de LinkedIn</Button>
                             <Button href='https://github.com/guiablanco' size="lg" style={{border:'solid', borderColor:'white'}} variant="dark">
-                            <Card.Img className='mb-2' variant="top" src={miniGithub} style={{width:'1.2rem', marginRight:'8px'}} />
+                            <Card.Img className='mb-2' variant="top" src={miniGithub} style={{width:'1.1rem', marginRight:'8px'}} />
                               Ver Github
                             </Button>
                           </div>
