@@ -11,12 +11,12 @@ import Collapse from '@mui/material/Collapse';
 import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { green } from '@mui/material/colors';
+import { red } from '@mui/material/colors';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 //images
-import canalesProject from '../../assets/images/home-proyect.jpg';
+import choosenOne from '../../assets/images/choosenone.jpg';
 
 
 
@@ -34,7 +34,7 @@ const ExpandMore = styled((props) => {
 
 
 
-const Card4 = () => {
+const Card7 = () => {
 
     const [expanded, setExpanded] = useState(false);
 
@@ -56,26 +56,26 @@ const Card4 = () => {
 
     return (
         <div>
-            <Card className='card1' style={{margin:'1rem', width:'18rem', height: !expanded ? '35rem': '65rem'}} sx={{ maxWidth: 345 }}>
+            <Card className='card1' style={{margin:'1rem', width:'18rem', height: !expanded ? '35rem': '55rem'}} sx={{ maxWidth: 345 }}>
                     <CardHeader
                         avatar={
-                        <Avatar style={{cursor:'pointer'}} onClick={() => navigate('/')} sx={{ bgcolor: green[500] }} aria-label="recipe">
-                            P
+                        <Avatar style={{cursor:'pointer'}} onClick={() => navigate('/')} sx={{ bgcolor: red[800] }} aria-label="recipe">
+                            TCO
                         </Avatar>
                         }
-                        title="Portafolio"
-                        subheader="Tecnologías de Desarrollo"
+                        title="Like Tinder"
+                        subheader="The Choosen One"
                     />
                     <CardMedia
-                        style={{cursor:'pointer'}} onClick={() => navigate('/')}
+                        style={{cursor:'pointer'}} onClick={() => window.open('https://the-choosen-one.vercel.app/')}
                         component="img"
                         height="300"
-                        image={canalesProject}
-                        alt="Perfil Profesional img"
+                        image={choosenOne}
+                        alt="The choosen one img"
                     />
                     <CardContent>
                         <Typography variant="body2" color="text.secondary">
-                        Este proyecto presenta toda la web asociada a los proyectos y perfil de usuario. Cuenta con navegación y correción de rutas por Error404.
+                        Proyecto que a futuro busca convertirse en competencia directa de Tinder. Está en su etapa inicial, por ahora solo presenta una animación de muestra.
                         </Typography>
                     </CardContent>
                     <CardActions disableSpacing>
@@ -95,13 +95,13 @@ const Card4 = () => {
                         <CardContent>
                         <Typography variant="h6" gutterBottom style={{margin:'2rem 0'}}>Elementos para su desarrollo</Typography>
                         <Typography paragraph>
-                            Proyecto desarrollado usando React, usando elementos de React-Bootstrap y MaterialUI, para tener componentes más amigables a la vista.
+                            Proyecto desarrollado usando NextJs, en su última versión.
                         </Typography>
                         <Typography paragraph>
-                            Se usó la librería react-router-dom v6 para realizar el sistema de enrutado, mejorando la navegación con el Hook useNavigate.
+                            Se usaron elementos básicos de ReactJs como el hook useState.
                         </Typography>
                         <Typography paragraph>
-                            Para mejorar los estilos se trabajó con los hooks useState y useEffect, en la interacción con algunos elementos.
+                            Tiene una base de HTML5, CSS3 y Javascript para sus animaciones.
                         </Typography>
                         </CardContent>
                     </Collapse>
@@ -110,4 +110,4 @@ const Card4 = () => {
     );
 }
 
-export default Card4;
+export default Card7;

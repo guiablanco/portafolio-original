@@ -64,7 +64,7 @@ const Card3 = () => {
                         </Avatar>
                         }
                         title="Perfil Profesional"
-                        subheader="Redes Sociales"
+                        subheader="Redes Laborales"
                     />
                     <CardMedia
                         style={{cursor:'pointer'}} onClick={() => navigate('/linkedin')}

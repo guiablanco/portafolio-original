@@ -11,12 +11,12 @@ import Collapse from '@mui/material/Collapse';
 import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { green } from '@mui/material/colors';
+import { blueGrey, red, purple } from '@mui/material/colors';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 //images
-import canalesProject from '../../assets/images/home-proyect.jpg';
+import imgCalculadora from '../../assets/images/calculadora-lila.jpg';
 
 
 
@@ -34,7 +34,7 @@ const ExpandMore = styled((props) => {
 
 
 
-const Card4 = () => {
+const Card5 = () => {
 
     const [expanded, setExpanded] = useState(false);
 
@@ -59,23 +59,23 @@ const Card4 = () => {
             <Card className='card1' style={{margin:'1rem', width:'18rem', height: !expanded ? '35rem': '65rem'}} sx={{ maxWidth: 345 }}>
                     <CardHeader
                         avatar={
-                        <Avatar style={{cursor:'pointer'}} onClick={() => navigate('/')} sx={{ bgcolor: green[500] }} aria-label="recipe">
-                            P
+                        <Avatar style={{cursor:'pointer'}} onClick={() => navigate('/')} sx={{ bgcolor: purple[300] }} aria-label="recipe">
+                            C
                         </Avatar>
                         }
-                        title="Portafolio"
-                        subheader="Tecnologías de Desarrollo"
+                        title="Calculadora"
+                        subheader="Calculadora Lila"
                     />
                     <CardMedia
-                        style={{cursor:'pointer'}} onClick={() => navigate('/')}
+                        style={{cursor:'pointer'}} onClick={() => window.open('https://github.com/guiablanco/calculadora-java')}
                         component="img"
                         height="300"
-                        image={canalesProject}
+                        image={imgCalculadora}
                         alt="Perfil Profesional img"
                     />
                     <CardContent>
                         <Typography variant="body2" color="text.secondary">
-                        Este proyecto presenta toda la web asociada a los proyectos y perfil de usuario. Cuenta con navegación y correción de rutas por Error404.
+                        Este proyecto presenta una calculadora tradicional, con algunas sugerencias de mejora, ya que para muchos hay botones que son poco comprensible en una calculadora.
                         </Typography>
                     </CardContent>
                     <CardActions disableSpacing>
@@ -95,13 +95,13 @@ const Card4 = () => {
                         <CardContent>
                         <Typography variant="h6" gutterBottom style={{margin:'2rem 0'}}>Elementos para su desarrollo</Typography>
                         <Typography paragraph>
-                            Proyecto desarrollado usando React, usando elementos de React-Bootstrap y MaterialUI, para tener componentes más amigables a la vista.
+                            Proyecto desarrollado usando Java, principalmente haciendo uso de SWING.
                         </Typography>
                         <Typography paragraph>
-                            Se usó la librería react-router-dom v6 para realizar el sistema de enrutado, mejorando la navegación con el Hook useNavigate.
+                            Se usó un LookAndFeel para darle mejores características al diseño y que no quede con la forma tradicional de Java en sus componentes de SWING.
                         </Typography>
                         <Typography paragraph>
-                            Para mejorar los estilos se trabajó con los hooks useState y useEffect, en la interacción con algunos elementos.
+                            El IDE que se usó para el desarrollo fue Apache Netbeans 18.
                         </Typography>
                         </CardContent>
                     </Collapse>
@@ -110,4 +110,4 @@ const Card4 = () => {
     );
 }
 
-export default Card4;
+export default Card5;

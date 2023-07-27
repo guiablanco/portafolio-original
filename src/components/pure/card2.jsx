@@ -97,7 +97,7 @@ const Card2 = () => {
                             Se usaron elementos de la librería MaterialUI para trabajar los íconos y botones.
                         </Typography>
                         <Typography paragraph>
-                            Ademas, se usó Formik, Yup y Redux, para gestionar formularios y estados dentro de la aplicación
+                            Ademas, se usó Formik, Yup y Redux, para gestionar formularios y estados dentro de la aplicación.
                         </Typography>
                         </CardContent>
                     </Collapse>

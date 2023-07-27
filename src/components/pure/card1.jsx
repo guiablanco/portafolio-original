@@ -112,7 +112,7 @@ const Card1 = () => {
                             Se usaron elementos de la librería Bootstrap y React Bootstrap para facilitar los procesos de producción de componentes, como cadrs y botones.
                         </Typography>
                         <Typography paragraph>
-                            Se usó el sistema de embebido de YouTube, con el fin de mejorar la forma de compartir videos
+                            Se usó el sistema de embebido de YouTube, con el fin de mejorar la forma de compartir videos.
                         </Typography>
                         </CardContent>
                     </Collapse>

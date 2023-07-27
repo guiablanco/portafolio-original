@@ -11,12 +11,12 @@ import Collapse from '@mui/material/Collapse';
 import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { green } from '@mui/material/colors';
+import { blueGrey, red } from '@mui/material/colors';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 //images
-import canalesProject from '../../assets/images/home-proyect.jpg';
+import pomodoroTimer from '../../assets/images/pomodoro-timer.jpg';
 
 
 
@@ -34,7 +34,7 @@ const ExpandMore = styled((props) => {
 
 
 
-const Card4 = () => {
+const Card6 = () => {
 
     const [expanded, setExpanded] = useState(false);
 
@@ -56,26 +56,26 @@ const Card4 = () => {
 
     return (
         <div>
-            <Card className='card1' style={{margin:'1rem', width:'18rem', height: !expanded ? '35rem': '65rem'}} sx={{ maxWidth: 345 }}>
+            <Card className='card1' style={{margin:'1rem', width:'18rem', height: !expanded ? '35rem': '50rem'}} sx={{ maxWidth: 345 }}>
                     <CardHeader
                         avatar={
-                        <Avatar style={{cursor:'pointer'}} onClick={() => navigate('/')} sx={{ bgcolor: green[500] }} aria-label="recipe">
+                        <Avatar style={{cursor:'pointer'}} onClick={() => navigate('/')} sx={{ bgcolor: red[500] }} aria-label="recipe">
                             P
                         </Avatar>
                         }
-                        title="Portafolio"
-                        subheader="Tecnologías de Desarrollo"
+                        title="Timer"
+                        subheader="Pomodoro Timer"
                     />
                     <CardMedia
-                        style={{cursor:'pointer'}} onClick={() => navigate('/')}
+                        style={{cursor:'pointer'}} onClick={() => window.open('https://github.com/guiablanco/pomodoro-timer')}
                         component="img"
-                        height="300"
-                        image={canalesProject}
-                        alt="Perfil Profesional img"
+                        height="310"
+                        image={pomodoroTimer}
+                        alt="Pomodoro Timer img"
                     />
                     <CardContent>
                         <Typography variant="body2" color="text.secondary">
-                        Este proyecto presenta toda la web asociada a los proyectos y perfil de usuario. Cuenta con navegación y correción de rutas por Error404.
+                        Este proyecto presenta in timer para usar la técnica pomodoro para la concentración y la eficiencia.
                         </Typography>
                     </CardContent>
                     <CardActions disableSpacing>
@@ -95,13 +95,7 @@ const Card4 = () => {
                         <CardContent>
                         <Typography variant="h6" gutterBottom style={{margin:'2rem 0'}}>Elementos para su desarrollo</Typography>
                         <Typography paragraph>
-                            Proyecto desarrollado usando React, usando elementos de React-Bootstrap y MaterialUI, para tener componentes más amigables a la vista.
-                        </Typography>
-                        <Typography paragraph>
-                            Se usó la librería react-router-dom v6 para realizar el sistema de enrutado, mejorando la navegación con el Hook useNavigate.
-                        </Typography>
-                        <Typography paragraph>
-                            Para mejorar los estilos se trabajó con los hooks useState y useEffect, en la interacción con algunos elementos.
+                            Proyecto desarrollado usando HTML5, CSS3 y Javascript puros.
                         </Typography>
                         </CardContent>
                     </Collapse>
@@ -110,4 +104,4 @@ const Card4 = () => {
     );
 }
 
-export default Card4;
+export default Card6;
