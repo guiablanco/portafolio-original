@@ -28,7 +28,7 @@ const LinkedInPage = () => {
                           bg={variant.toLowerCase()}
                           key={variant}
                           text={variant.toLowerCase() === 'light' ? 'dark' : 'white'}
-                          style={{ width: '32rem' }}
+                          style={{ width: '27rem' }}
                           className="m-5"
                         >
                         <Card.Header style={{backgroundColor:'rgb(56,67,79)', display:'flex', justifyContent:'start'}}> 
