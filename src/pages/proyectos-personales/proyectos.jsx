@@ -7,6 +7,7 @@ import Card4 from '../../components/pure/card4';
 import Card5 from '../../components/pure/card5';
 import Card6 from '../../components/pure/card6';
 import Card7 from '../../components/pure/card7';
+import Card8 from '../../components/pure/card8';
 
 
 
@@ -36,11 +37,12 @@ const Proyectos = () => {
                 <div className='proyect-cards' style={{display:'flex', flexWrap:'wrap', flexDirection:isColumn ? 'column' : 'row' , justifyContent:'center', alignItems:'center'}}>
                 <Card3/>
                 <Card4/>
-                <Card1/>
+                <Card8/>
                 <Card2/>
                 <Card5/>
                 <Card6/>
                 <Card7/>
+                <Card1/>
                 </div>
             </div>
         </div>
