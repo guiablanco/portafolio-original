@@ -43,11 +43,11 @@ const TecnologiasIconos = () => {
             <Container>
                 <Row>
                     <Col>
-                        <Card className='card' style={{ width: '35rem' }}>
+                        <Card className='card' style={{ width: '23rem' }}>
                             <div className='card-tech'>
 
                                 <div>
-                                    <Card.Img variant="top" src={logoReact} style={{width:'10rem'}} />
+                                    <Card.Img variant="top" src={logoReact} style={{width:'5rem'}} />
                                     <Card.Body>
                                         <Card.Title>React JS Básico</Card.Title>
                                         <Card.Text>
@@ -56,7 +56,7 @@ const TecnologiasIconos = () => {
                                     </Card.Body>
                                 </div>
                                 <div className='card2'>
-                                    <ListGroup className="list-group-flush" style={{ width: '20rem'}}>
+                                    <ListGroup className="list-group-flush" style={{ width: '13rem'}}>
                                         <Card.Title >Trabajando con</Card.Title>
                                         <ListGroup.Item><Card.Img variant="top" src={logoReactRouterDom} style={{width:'1.6rem'}} /> React-Router-Dom</ListGroup.Item>
                                         <ListGroup.Item> <Card.Img variant="top" src={logoReactBootstrap} style={{width:'1.7rem'}} /> React-Bootstrap</ListGroup.Item>
@@ -70,11 +70,11 @@ const TecnologiasIconos = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card className='card' style={{ width: '35rem' }}>
+                        <Card className='card' style={{ width: '23rem' }}>
                             <div className='card-tech'>
 
                                 <div>
-                                    <Card.Img variant="top" src={logoJavascript} style={{width:'6.6rem'}} />
+                                    <Card.Img variant="top" src={logoJavascript} style={{width:'3rem'}} />
                                     <Card.Body>
                                         <Card.Title>JavaScript</Card.Title>
                                         <Card.Text>
@@ -83,7 +83,7 @@ const TecnologiasIconos = () => {
                                     </Card.Body>
                                 </div>
                                 <div className='card2'>
-                                    <ListGroup className="list-group-flush" style={{ width: '20rem'}}>
+                                    <ListGroup className="list-group-flush" style={{ width: '13rem'}}>
                                         <Card.Title >Trabajando con</Card.Title>
                                         <ListGroup.Item><Card.Img variant="top" src={logoReact} style={{width:'2rem'}} />ReactJs</ListGroup.Item>
                                         <ListGroup.Item><Card.Img variant="top" src={logoBootstrap} style={{width:'1.8rem'}} /> Bootstrap</ListGroup.Item>
@@ -99,21 +99,21 @@ const TecnologiasIconos = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <Card className='card' style={{ width: '35rem' }}>
+                        <Card className='card' style={{ width: '23rem' }}>
                             <div className='card-tech'>
 
                                 <div>
-                                    <Card.Img variant="top" src={logoHTML} style={{width:'4.3rem'}} />
-                                    <Card.Img variant="top" src={logoCSS} style={{width:'3rem'}} />
+                                    <Card.Img variant="top" src={logoHTML} style={{width:'2.5rem'}} />
+                                    <Card.Img variant="top" src={logoCSS} style={{width:'1.8rem'}} />
                                     <Card.Body>
-                                        <Card.Title>HTML5 Y CSS</Card.Title>
+                                        <Card.Title>HTML5 Y CSS3</Card.Title>
                                         <Card.Text>
                                                 Desarrollado en Open Bootcamp
                                         </Card.Text>
                                     </Card.Body>
                                 </div>
                                 <div className='card2'>
-                                    <ListGroup className="list-group-flush" style={{ width: '20rem'}}>
+                                    <ListGroup className="list-group-flush" style={{ width: '13rem'}}>
                                         <Card.Title >Trabajando con</Card.Title>
                                         <ListGroup.Item><Card.Img variant="top" src={logoSASS} style={{width:'1.8rem'}} /> SASS</ListGroup.Item>
                                         <ListGroup.Item> <Card.Img variant="top" src={logoJavascript} style={{width:'1.5rem'}} /> JavaScript</ListGroup.Item>
@@ -127,11 +127,11 @@ const TecnologiasIconos = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card className='card' style={{ width: '35rem' }}>
+                        <Card className='card' style={{ width: '23rem' }}>
                             <div className='card-tech'>
 
                                 <div>
-                                    <Card.Img variant="top" src={logoTypescript} style={{width:'6.6rem', borderRadius:'18px'}} />
+                                    <Card.Img variant="top" src={logoTypescript} style={{width:'3rem', borderRadius:'9px'}} />
                                     <Card.Body>
                                         <Card.Title>TypeScript</Card.Title>
                                         <Card.Text>
@@ -140,7 +140,7 @@ const TecnologiasIconos = () => {
                                     </Card.Body>
                                 </div>
                                 <div className='card2'>
-                                    <ListGroup className="list-group-flush" style={{ width: '20rem'}}>
+                                    <ListGroup className="list-group-flush" style={{ width: '13rem'}}>
                                         <Card.Title >Trabajando con</Card.Title>
                                         <ListGroup.Item><Card.Img variant="top" src={logoNode} style={{width:'2rem'}} /> NodeJs</ListGroup.Item>
                                         <ListGroup.Item><Card.Img variant="top" src={logoZod} style={{width:'1.5rem'}} /> Zod</ListGroup.Item>
@@ -156,11 +156,11 @@ const TecnologiasIconos = () => {
                 </Row>
                 <Row>
                 <Col>
-                        <Card className='card' style={{ width: '35rem' }}>
+                        <Card className='card' style={{ width: '23rem' }}>
                             <div className='card-tech'>
 
                                 <div>
-                                    <Card.Img variant="top" src={logoJava} style={{width:'6.6rem'}} />
+                                    <Card.Img variant="top" src={logoJava} style={{width:'4.4rem'}} />
                                     <Card.Body>
                                         <Card.Title>Java</Card.Title>
                                         <Card.Text>
@@ -169,7 +169,7 @@ const TecnologiasIconos = () => {
                                     </Card.Body>
                                 </div>
                                 <div className='card2'>
-                                    <ListGroup className="list-group-flush" style={{ width: '20rem'}}>
+                                    <ListGroup className="list-group-flush" style={{ width: '13rem'}}>
                                         <Card.Title >Trabajando con</Card.Title>
                                         <ListGroup.Item><Card.Img variant="top" src={logoSpring} style={{width:'1.8rem'}} /> Spring</ListGroup.Item>
                                         <ListGroup.Item><Card.Img variant="top" src={logoJUnit5} style={{width:'3rem'}} /> JUnit</ListGroup.Item>
@@ -183,10 +183,10 @@ const TecnologiasIconos = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card className='card' style={{ width: '35rem' }}>
+                        <Card className='card' style={{ width: '23rem' }}>
                             <div className='card-tech'>
                                 <div>
-                                    <Card.Img variant="top" src={logoSpring} style={{width:'6.6rem'}} />
+                                    <Card.Img variant="top" src={logoSpring} style={{width:'4.4em'}} />
                                     <Card.Body>
                                         <Card.Title>Spring</Card.Title>
                                         <Card.Text>
@@ -195,7 +195,7 @@ const TecnologiasIconos = () => {
                                     </Card.Body>
                                 </div>
                                 <div className='card2'>
-                                    <ListGroup className="list-group-flush" style={{ width: '20rem'}}>
+                                    <ListGroup className="list-group-flush" style={{ width: '13rem'}}>
                                         <Card.Title >Trabajando con</Card.Title>
                                         <ListGroup.Item><Card.Img variant="top" src={logoSpringBoot} style={{width:'3rem'}} />  Spring Boot</ListGroup.Item>
                                         <ListGroup.Item><Card.Img variant="top" src={logoJUnit5} style={{width:'3rem'}} /> JUnit</ListGroup.Item>
@@ -211,10 +211,10 @@ const TecnologiasIconos = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <Card className='card' style={{ width: '35rem' }}>
+                        <Card className='card' style={{ width: '23rem' }}>
                             <div className='card-tech'>
                                 <div>
-                                    <Card.Img variant="top" src={logoSQL} style={{width:'6.6rem'}} />
+                                    <Card.Img variant="top" src={logoSQL} style={{width:'5rem'}} />
                                     <Card.Body>
                                         <Card.Title>SQL</Card.Title>
                                         <Card.Text>
@@ -223,7 +223,7 @@ const TecnologiasIconos = () => {
                                     </Card.Body>
                                 </div>
                                 <div className='card2'>
-                                    <ListGroup className="list-group-flush" style={{ width: '20rem'}}>
+                                    <ListGroup className="list-group-flush" style={{ width: '13rem'}}>
                                         <Card.Title >Trabajando con</Card.Title>
                                         <ListGroup.Item><Card.Img variant="top" src={logoPostgresql} style={{width:'1.5rem'}} />  Postgresql</ListGroup.Item>
                                         <ListGroup.Item><Card.Img variant="top" src={logodbeaver} style={{width:'1.8rem'}} /> Dbeaver</ListGroup.Item>
@@ -236,11 +236,11 @@ const TecnologiasIconos = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card className='card' style={{ width: '35rem' }}>
+                        <Card className='card' style={{ width: '23rem' }}>
                             <div className='card-tech'>
 
                                 <div>
-                                    <Card.Img variant="top" src={logoGit} style={{width:'6.6rem'}} />
+                                    <Card.Img variant="top" src={logoGit} style={{width:'4.4rem'}} />
                                     <Card.Body>
                                         <Card.Title>Git</Card.Title>
                                         <Card.Text>
@@ -249,7 +249,7 @@ const TecnologiasIconos = () => {
                                     </Card.Body>
                                 </div>
                                 <div className='card2'>
-                                    <ListGroup className="list-group-flush" style={{ width: '20rem'}}>
+                                    <ListGroup className="list-group-flush" style={{ width: '13rem'}}>
                                         <Card.Title >Trabajando con</Card.Title>
                                         <ListGroup.Item><Card.Img variant="top" src={logoGithub} style={{width:'1.5rem'}} />   Github</ListGroup.Item>
                                         <ListGroup.Item><Card.Img variant="top" src={logoGitlab} style={{width:'1.5rem'}} /> Gitlab</ListGroup.Item>

@@ -18,8 +18,8 @@ const CanalesPage = () => {
 
             <div >
                 <h1 style={{marginTop:'2rem'}}>Otros Canales de Difusión</h1>
-                <div style={{display:'flex', flexDirection:'row'}}>
-                    <Card style={{ width: '30rem', margin:'5rem 5rem 1rem 5rem', display:'flex', justifyContent:'center', alignItems:'center' }}>
+                <div style={{display:'flex', flexDirection:'column', alignItems:'center'}}>
+                    <Card style={{ width: '25rem', margin:'5rem 5rem 1rem 5rem', display:'flex', justifyContent:'center', alignItems:'center' }}>
                         <Card.Body>
                         
                             <div>
@@ -34,7 +34,7 @@ const CanalesPage = () => {
                             </div>
 
                         </Card.Body>
-                        <Card.Img variant="top" src={instagramLogo} />
+                        <Card.Img variant="top" src={instagramLogo} style={{width:'50%'}} />
                         <Card.Body>
                             <Card.Title>Tus clases de matemática online</Card.Title>
                             <Card.Text>
@@ -44,10 +44,10 @@ const CanalesPage = () => {
                         </Card.Body>
                     </Card>
                 
-                    <Card style={{ width: '30rem', marginTop:'5rem', display:'flex', justifyContent:'center', alignItems:'center', paddingBottom:'0' }}>
+                    <Card style={{ width: '25rem', marginTop:'5rem', display:'flex', justifyContent:'center', alignItems:'center', paddingBottom:'0' }}>
 
                         <Card.Img variant="top" src={tiktokScreen} style={{width:'20rem', height:'37rem', margin:'1.5rem 0', paddingTop:'0', border:'solid'}} />
-                        <Card.Img variant="top" src={tiktokLogo} style={{width:'20rem'}}  />
+                        <Card.Img variant="top" src={tiktokLogo} style={{width:'50%'}}  />
                         <Card.Body>
                             <Card.Title>Tus clases de matemática online</Card.Title>
                             <Card.Text>
@@ -57,11 +57,11 @@ const CanalesPage = () => {
                         </Card.Body>
                     </Card>
                 </div>
-                <div style={{paddingLeft:'7rem'}}>
-                    <Card style={{ width: '60rem', height:'50rem', marginTop:'5rem', display:'flex', justifyContent:'center', alignItems:'center', paddingBottom:'0' }}>
+                <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+                    <Card style={{ width: '25rem', height:'35rem', marginTop:'5rem', display:'flex', justifyContent:'center', alignItems:'center', paddingBottom:'0' }}>
                     <iframe
-                    width="840rem"
-                    height="482rem"
+                    width="400rem"
+                    height="241rem"
                     src="https://www.youtube.com/embed/v4McdnkNlkE"
                     title="YouTube video player"
                     frameBorder="0"
