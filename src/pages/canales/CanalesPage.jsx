@@ -69,7 +69,7 @@ const CanalesPage = () => {
                     allowFullScreen
                     ></iframe>
                         
-                        <Card.Img variant="top" src={youtubeLogo} style={{width:'20rem', margin:'2rem'}}  />
+                        <Card.Img variant="top" src={youtubeLogo} style={{width:'13rem', margin:'2rem'}}  />
                         <Card.Body>
                             <Card.Title>ProfeSebaMat</Card.Title>
                             <Card.Text>

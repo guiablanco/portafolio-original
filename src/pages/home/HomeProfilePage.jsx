@@ -1,10 +1,10 @@
+import TecnologiasIconos from '../../components/pure/TecnologiasIconos';
 
 //images
 import profileImage from '../../assets/images/profile.jpg';
 
 //style
 import '../../styles/profile.scss';
-import TecnologiasIconos from '../../components/pure/TecnologiasIconos';
 
 const HomeProfilePage = () => {
 

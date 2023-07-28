@@ -7,7 +7,8 @@ import { useNavigate } from 'react-router-dom';
 import taskIco from '../../assets/images/taskico.png';
 
 //style
-import '../../styles/navbar.scss'
+import '../../styles/navbar.scss';
+
 
 const Navbar = () => {
 
@@ -17,11 +18,9 @@ const [logged, setLogged] = useState(true)
 
     return (
         <div>
-            <div className='headTitle'>
-
-
+            <div className='head-title'>
             <ButtonGroup variant="text" aria-label="text button group" color='warning'>
-                <Button  style={{color:'white', fontWeight:'600', fontSize:'0.8rem'}} href='#' onClick={()=> navigate(-1)} >Back</Button>
+                <Button style={{color:'white', fontWeight:'600', fontSize:'0.8rem'}} href='#' onClick={()=> navigate(-1)} >Back</Button>
                 <Button style={{color:'white', fontWeight:'600', fontSize:'0.8rem'}} href='/' >Home</Button>
                 <Button style={{color:'white', fontWeight:'600', fontSize:'0.8rem'}} href='proyectos'>Proyectos</Button>
                 {

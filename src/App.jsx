@@ -9,13 +9,13 @@ import NotFoundPage from './pages/404/NotFoundPage';
 import AboutPage from './pages/about-faqs/AboutPage';
 import ProfilePage from './pages/profile/ProfilePage';
 import TaskPage from './pages/tasks/TaskPage';
-
-//style
-import './App.css';
 import Proyectos from './pages/proyectos-personales/proyectos';
 import HomeTaskPage from './pages/homeTask/HomeTaskPage';
 import CanalesPage from './pages/canales/CanalesPage';
 import LinkedInPage from './pages/linkedIn/LinkedInPage';
+
+//style
+import './App.css';
 
 function App() {
   return (
