@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 //Styles
 import '../../styles/PDFViewer.scss';
+import '../../styles/linkedin.scss'
 
 //Images
 import LinkedInLogo from '../../assets/images/Logo-LinkedIn-noir.webp';
@@ -19,7 +20,7 @@ const LinkedInPage = () => {
 
     return (
         <div>
-            <div>
+            <div className='linkedin-card'>
                 <>
                     {[
                       'Dark',
@@ -58,14 +59,15 @@ const LinkedInPage = () => {
                     ))}
                 </>
             </div>
-                <h1 style={{marginBottom:'2rem'}}>Currículum Vitae</h1>
-                <div className="pdf-container">
-                    <embed
-                    src={CVSebastian} // Ruta al archivo PDF que deseas mostrar
-                    type="application/pdf"
-                    width="100%"
-                    height="900rem"
-                    />
+            <h1 style={{marginBottom:'2rem'}}>Currículum Vitae</h1>
+            <div className="pdf-container">
+              <embed
+              src={CVSebastian} // Ruta al archivo PDF que deseas mostrar
+              type="application/pdf"
+              width="650px"
+              height="900px"
+              className='pdf-embed'
+              />
             </div>
         </div>
     );

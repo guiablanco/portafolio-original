@@ -5,15 +5,19 @@
 
 
 .profileImage {
-    height: 15rem;
-    width: 15rem;
+    width: 10%;
+    height: 10%;
     border-radius: 100%;
     border: solid;
     margin-top: 1rem;
-
+    @media (max-width: 700px) {
+    width: 40%;
+    height: 40%;
+    margin-bottom: 1rem;
+    }
 }
 .profileImage:hover{
-    opacity: 90%;
+    opacity: 80%;
 }
 
 .datos {
@@ -25,6 +29,9 @@
     img{
         border-color: silver;
         margin-right: 2rem;
+    }
+    @media (max-width: 700px) {
+        flex-direction: column;
     }
 }
 
@@ -40,14 +47,8 @@
     width: 30rem;
 }
 
-.profileImage {
-    width: 13%;
-    height: 13%;
-}
-
-
 /*Texts*/
-h2{
+h2 {
     color: silver;
-    font-size: 90%;
+    font-size: 120%;
 }

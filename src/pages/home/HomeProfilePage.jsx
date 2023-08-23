@@ -9,7 +9,6 @@ import '../../styles/profile.scss';
 const HomeProfilePage = () => {
 
 
-
     return (
         <div>
 

@@ -40,7 +40,7 @@ const TecnologiasIconos = () => {
     return (
         <div className='container'>
 
-            <Container>
+            <Container style={{display:'flex', flexDirection: 'column', alignItems: 'center'}}>
                 <Row>
                     <Col>
                         <Card className='card' style={{ width: '23rem' }}>
