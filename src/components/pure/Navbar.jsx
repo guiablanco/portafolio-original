@@ -27,7 +27,7 @@ const [logged, setLogged] = useState(true)
                     logged ? <Button style={{color:'white', fontWeight:'600', fontSize:'0.8rem'}} href='tasks'>Tasks</Button> : <Button style={{color:'white', fontSize:'0.5rem'}} href='Login'>Login</Button> 
                 }
                 <Button style={{color:'white', fontWeight:'600', fontSize:'0.8rem'}} href='canales'>Canales</Button>
-                <Button style={{color:'white', fontWeight:'600', fontSize:'0.8rem'}} href='linkedin'>LinkedIn y CV</Button>
+                <Button style={{color:'white', fontWeight:'600', fontSize:'0.8rem'}} href='linkedin'>LinkedIn</Button>
             </ButtonGroup>
         </div>
             </div>
