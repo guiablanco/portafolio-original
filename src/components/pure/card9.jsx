@@ -56,7 +56,7 @@ const Card9 = () => {
 
     return (
         <div>
-            <Card className='card1' style={{margin:'1rem', width:'18rem', height: !expanded ? '35rem': '60rem'}} sx={{ maxWidth: 345 }}>
+            <Card className='card1' style={{margin:'1rem', width:'18rem', height: !expanded ? '35rem': '63rem'}} sx={{ maxWidth: 345 }}>
                     <CardHeader
                         avatar={
                         <Avatar style={{cursor:'pointer'}} onClick={() => navigate('/')} sx={{ bgcolor: blue[300] }} aria-label="recipe">
