@@ -35,3 +35,15 @@ tbody{
         font-size: 10px;
     }
 }
+
+.col-title {
+    @media (max-width: 520px) {
+        font-size: 12px;
+    }
+}
+
+.task-name {
+    @media (max-width: 520px) {
+        font-size: 12px;
+    }
+}
