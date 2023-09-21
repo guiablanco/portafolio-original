@@ -2,11 +2,10 @@ import React, {useState, useEffect} from 'react';
 import { Task } from '../../models/task.class';
 import { LEVELS } from '../../models/levels.enum';
 import TaskComponent from '../pure/task';
+import TaskForm from '../pure/forms/taskForm';
 
 //importamos la hoja de estilos task.scss
-
 import '../../styles/task.scss';
-import TaskForm from '../pure/forms/taskForm';
 
 const TaskListComponent = () => {
 
@@ -112,9 +111,7 @@ const TaskListComponent = () => {
 
     return (
         <div>
-            <div className='col-12'>
-
-                <div className='card'>
+                <div className='col-12 card'>
                     {/* card header y title */}
                     <div className='card-header p-3'>
                         <h5>Your Tasks:</h5>
@@ -125,7 +122,6 @@ const TaskListComponent = () => {
                         {loading ? <p style={loadingStyle}>Loading...</p> : tasksTable}
                     </div>
                 </div>
-            </div>
             <TaskForm add={addTask} length={tasks.length}></TaskForm>
         </div>
     );

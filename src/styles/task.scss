@@ -23,3 +23,9 @@ tbody{
     width: 20rem;
     height: 10rem;
 }
+
+.card {
+    @media (max-width: 520px) {
+        width: 400px;
+    }
+}
