@@ -78,7 +78,7 @@ const Card1 = () => {
                         title="Canales de Difusión"
                         subheader="Redes Sociales"
                     />
-                    <CardMedia style={{cursor:'pointer'}} onClick={() => navigate('/channels')}
+                    <CardMedia style={{cursor:'pointer'}} onClick={() => navigate('/canales')}
                         component="img"
                         height="300"
                         image={canalesProject}
