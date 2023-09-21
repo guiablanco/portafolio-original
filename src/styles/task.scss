@@ -26,6 +26,12 @@ tbody{
 
 .card {
     @media (max-width: 520px) {
-        width: 400px;
+        width: 350px;
+    }
+}
+
+.description {
+    @media (max-width: 520px) {
+        font-size: 10px;
     }
 }

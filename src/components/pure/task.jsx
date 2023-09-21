@@ -83,7 +83,7 @@ const TaskComponent = ({task, complete, remove}) => {
             <td className='aligne-middle'>
                 <span>{task.name}</span> 
             </td>
-            <td className='aligne-middle'>
+            <td className='aligne-middle description'>
                 <span>{task.description}</span> 
             </td>
             <td className='aligne-middle'>
