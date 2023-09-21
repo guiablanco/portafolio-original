@@ -16,15 +16,15 @@ const HomeTaskPage = () => {
 
 
     return (
-        <div>
+        <div className='home-task-page'>
             <img 
                 style={{padding: 0, margin:'3rem', width:'25rem', height:'12rem'}}
                 src={tasklogo2} 
                 alt='logo' 
                 className='logo'/>
             <div className='task-page'>
-                    <TaskDescription></TaskDescription>
-                    <TaskPage></TaskPage>
+                <TaskDescription></TaskDescription>
+                <TaskPage></TaskPage>
             </div>
         </div>
     );
