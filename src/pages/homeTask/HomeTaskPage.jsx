@@ -17,21 +17,14 @@ const HomeTaskPage = () => {
 
     return (
         <div>
-            
-            <div>
-                <img 
+            <img 
                 style={{padding: 0, margin:'3rem', width:'25rem', height:'12rem'}}
                 src={tasklogo2} 
                 alt='logo' 
                 className='logo'/>
-            </div>
             <div className='task-page'>
-                <div>
                     <TaskDescription></TaskDescription>
-                </div>
-                <div>
                     <TaskPage></TaskPage>
-                </div>
             </div>
         </div>
     );
