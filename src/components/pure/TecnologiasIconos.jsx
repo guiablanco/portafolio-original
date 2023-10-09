@@ -32,6 +32,8 @@ import logoTypescript from '../../assets/images/typescript-logo.png';
 import logoNode from '../../assets/images/nodejs-logo.png';
 import logoZod from '../../assets/images/zod-logo.png';
 import logoNpm from '../../assets/images/npm-logo.png';
+import logoAngular from '../../assets/images/angular-logo.png';
+import logoAngularMaterial from '../../assets/images/angular-material-logo.png';
 
 
 import '../../styles/profile.scss'
@@ -41,6 +43,35 @@ const TecnologiasIconos = () => {
         <div className='container'>
 
             <Container style={{display:'flex', flexDirection: 'column', alignItems: 'center'}}>
+                <Row>
+                    <Col>
+                        <Card className='card' style={{ width: '23rem' }}>
+                            <div className='card-tech'>
+
+                                <div>
+                                    <Card.Img variant="top" src={logoAngular} style={{width:'5rem'}} />
+                                    <Card.Body>
+                                        <Card.Title>Angular</Card.Title>
+                                        <Card.Text>
+                                                Desarrollado por Fernando Herrera
+                                        </Card.Text>
+                                    </Card.Body>
+                                </div>
+                                <div className='card2'>
+                                    <ListGroup className="list-group-flush" style={{ width: '13rem'}}>
+                                        <Card.Title >Trabajando con</Card.Title>
+                                        <ListGroup.Item><Card.Img variant="top" src={logoTypescript} style={{width:'1.6rem'}} /> TypeScript</ListGroup.Item>
+                                        <ListGroup.Item> <Card.Img variant="top" src={logoJavascript} style={{width:'1.7rem'}} /> Javascript</ListGroup.Item>
+                                        <ListGroup.Item> <Card.Img variant="top" src={logoAngularMaterial} style={{width:'1.6rem'}} /> Angular Material</ListGroup.Item>
+                                    <Card.Body>
+                                        <Card.Text href="">En progreso...</Card.Text>
+                                    </Card.Body>
+                                    </ListGroup>
+                                </div>
+                            </div>
+                        </Card>
+                    </Col>
+                </Row>
                 <Row>
                     <Col>
                         <Card className='card' style={{ width: '23rem' }}>
