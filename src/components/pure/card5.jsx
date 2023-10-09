@@ -59,7 +59,7 @@ const Card5 = () => {
             <Card className='card1' style={{margin:'1rem', width:'18rem', height: !expanded ? '35rem': '65rem'}} sx={{ maxWidth: 345 }}>
                     <CardHeader
                         avatar={
-                        <Avatar style={{cursor:'pointer'}} onClick={() => navigate('/')} sx={{ bgcolor: purple[300] }} aria-label="recipe">
+                        <Avatar style={{cursor:'pointer'}} sx={{ bgcolor: purple[300] }} aria-label="recipe">
                             C
                         </Avatar>
                         }
