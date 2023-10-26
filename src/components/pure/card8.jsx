@@ -75,7 +75,7 @@ const Card8 = () => {
                     />
                     <CardContent>
                         <Typography variant="body2" color="text.secondary">
-                        Si buscas añadirle estilo a una de tus imágenes usando Inteligencia Artificial, este proyecto te ayudará. Solo disponible hasta el 9 de Noviembre. 
+                        (Actualmente en mantenimiento) Si buscas añadirle estilo a una de tus imágenes usando Inteligencia Artificial, este proyecto te ayudará. Solo disponible hasta el 9 de Noviembre. 
                         </Typography>
                     </CardContent>
                     <CardActions disableSpacing>
