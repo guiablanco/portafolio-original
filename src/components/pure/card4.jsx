@@ -16,7 +16,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 //images
-import canalesProject from '../../assets/images/home-proyect.jpg';
+import portafolioImg from '../../assets/images/home-proyect.png';
 
 
 
@@ -70,7 +70,7 @@ const Card4 = () => {
                         style={{cursor:'pointer'}} onClick={() => navigate('/')}
                         component="img"
                         height="300"
-                        image={canalesProject}
+                        image={portafolioImg}
                         alt="Perfil Profesional img"
                     />
                     <CardContent>

@@ -17,7 +17,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 //images
 
-import tasksProject from '../../assets/images/tasks-proyect.jpg';
+import tasksProject from '../../assets/images/tasks-proyect.png';
 
 
 
