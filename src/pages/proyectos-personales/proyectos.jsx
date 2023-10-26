@@ -10,6 +10,7 @@ import Card7 from '../../components/pure/card7';
 import Card8 from '../../components/pure/card8';
 import Card9 from '../../components/pure/card9';
 import Card10 from '../../components/pure/card10';
+import Card11 from '../../components/pure/card11';
 
 
 
@@ -42,6 +43,7 @@ const Proyectos = () => {
                 <Card8/>
                 <Card9/>
                 <Card10/>
+                <Card11/>
                 <Card2/>
                 <Card5/>
                 <Card6/>
