@@ -16,8 +16,9 @@ const HomeProfilePage = () => {
                 <div className='datos'>
                     <img src={profileImage} alt='profileImage' className='profileImage'/>
                     <div>
-                        <h2>Sebastián Aguirre Fernández</h2>
+                        <h1>Sebastián Aguirre Fernández</h1>
                         <h2>Programador Jr Full Stack</h2>
+                        <h2>Profesor de Matemática e Informática</h2>
                         <h2>Magister en Educación y Gestión Universitaria</h2>
                     </div>
                 </div>
